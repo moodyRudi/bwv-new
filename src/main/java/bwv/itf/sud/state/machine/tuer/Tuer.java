@@ -1,4 +1,4 @@
-package bwv.itf.sud.state.machine.tuer;
+package src.main.java.bwv.itf.sud.state.machine.tuer;
 
 public class Tuer {
 	

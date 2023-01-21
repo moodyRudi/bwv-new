@@ -1,4 +1,4 @@
-package bwv.itf.sud.state.machine.tuer;
+package src.test.java.bwv.itf.sud.state.machine.tuer;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
