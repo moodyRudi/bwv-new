@@ -1,4 +1,4 @@
-package src.test.java.bwv.itf.sud.state.machine.tuer;
+package bwv.itf.sud.state.machine.tuer;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -11,7 +11,7 @@ class TuerTest {
 	private Tuer tuer;
 
 	@BeforeEach
-	void setUp() throws Exception {
+	void setUp() {
 		tuer = new Tuer();
 	}
 

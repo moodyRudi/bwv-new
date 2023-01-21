@@ -1,4 +1,4 @@
-package src.test.java.bwv.itf.sud.state.machine.tuer;
+package bwv.itf.sud.state.machine.tuer;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -11,7 +11,7 @@ class TuerOffenAufgeschlossenTest {
 	private static TuerStatus tuerStatus;
 
 	@BeforeAll
-	static void setUpBeforeClass() throws Exception {
+	static void setUpBeforeClass() {
 		tuerStatus = TuerOffenAufgeschlossen.getInstance();
 	}
 
