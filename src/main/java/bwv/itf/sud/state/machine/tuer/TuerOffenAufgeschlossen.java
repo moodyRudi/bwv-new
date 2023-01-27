@@ -1,6 +1,6 @@
 package bwv.itf.sud.state.machine.tuer;
 
-public final class TuerOffenAufgeschlossen extends TuerStatus {
+public final class TuerOffenAufgeschlossen implements TuerStatus {
 	
 	private static final TuerStatus instance = new TuerOffenAufgeschlossen();
 	

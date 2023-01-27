@@ -1,12 +1,12 @@
 package bwv.itf.sud.state.machine.freundin;
 
-public abstract class FreundinStatus {
+public interface FreundinStatus {
 
-    public FreundinStatus veraergern() {
+    default FreundinStatus veraergern() {
         throw new UnsupportedOperationException();
     }
 
-    public FreundinStatus kuessen() {
+    default FreundinStatus kuessen() {
         throw new UnsupportedOperationException();
     }
 
