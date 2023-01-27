@@ -1,20 +1,20 @@
 package bwv.itf.sud.state.machine.tuer;
 
-public abstract class TuerStatus {
+public interface TuerStatus {
 	
-	public TuerStatus oeffnen() {
+	default TuerStatus oeffnen() {
 		throw new UnsupportedOperationException();
 	}
 	
-	public TuerStatus schliessen() {
+	default TuerStatus schliessen() {
 		throw new UnsupportedOperationException();
 	}
 	
-	public TuerStatus abschliessen() {
+	default TuerStatus abschliessen() {
 		throw new UnsupportedOperationException();
 	}
 	
-	public TuerStatus aufschliessen() {
+	default TuerStatus aufschliessen() {
 		throw new UnsupportedOperationException();
 	}
 

@@ -1,6 +1,6 @@
 package bwv.itf.sud.state.machine.freundin;
 
-public class Neutral extends FreundinStatus {
+public class Neutral implements FreundinStatus {
 
     @Override
     public FreundinStatus kuessen() {

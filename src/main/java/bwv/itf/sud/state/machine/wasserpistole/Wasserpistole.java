@@ -20,4 +20,8 @@ public class Wasserpistole {
         return status instanceof PistoleLeer;
     }
 
+    public boolean istVoll() {
+        return status instanceof PistoleVoll;
+    }
+
 }

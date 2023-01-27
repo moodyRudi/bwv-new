@@ -8,7 +8,10 @@ public class PistoleLeer extends PistoleStatus {
 
     @Override
     public PistoleStatus fuellen(int ml) {
-        if (ml > MAX_FUELL_MENGE) {
+        if (ml < 0) {
+            throw new IllegalArgumentException();
+        }
+        if (ml >= MAX_FUELL_MENGE) {
             return new PistoleVoll();
         }
         return new PistoleTeil(ml);

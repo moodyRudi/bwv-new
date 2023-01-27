@@ -2,7 +2,7 @@ package bwv.itf.sud.state.machine.wasserpistole;
 
 public abstract class PistoleStatus {
 
-    protected static int MAX_FUELL_MENGE = 500;
+    protected static final int MAX_FUELL_MENGE = 500;
 
     protected int fuellMenge;
 

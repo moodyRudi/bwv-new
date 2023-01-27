@@ -1,6 +1,6 @@
 package bwv.itf.sud.state.machine.freundin;
 
-public class Froehlichkeit extends FreundinStatus {
+public class Froehlichkeit implements FreundinStatus {
 
     @Override
     public FreundinStatus veraergern() {
